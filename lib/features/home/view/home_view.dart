@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
+import 'package:mimd_task/core/navigator/app_rouutes.dart';
+import 'package:mimd_task/features/todo/manager/cubit/todo_cubit.dart';
+import 'package:mimd_task/features/todo/manager/cubit/todo_states.dart';
 import '../../../core/constants/app_colors.dart';
-import '../../../core/navigation/app_routes.dart';
 import '../../../core/widgets/custom_widgets.dart';
-import '../../todo/cubit/todo_cubit.dart';
-import '../../todo/cubit/todo_states.dart';
+
 import '../../common/widgets/feature_card.dart';
-import '../../common/widgets/quick_stats_card.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
